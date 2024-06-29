@@ -1,8 +1,8 @@
-@media all and (max-width: 1020px) {
+/*@media all and (max-width: 1020px) {
     body {
         width: 100%;
     }
-}
+}*/
 
 * {
 	margin: 0;
@@ -33,7 +33,10 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
+/*	width: 100%;*/
+	left: 0;
+	right: 0;
+	position: absolute;
 	background-color: #ffffff;
 }
 .gusanito {
@@ -55,7 +58,8 @@ nav > ul {
 }
 
 .main-header {
-	margin-left: 380px;
+/*	margin-left: 380px;*/
+text-align: center;
 	font-family: 'Lato', sans-serif;
 	color: #344e41;
 }
